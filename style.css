@@ -1,0 +1,144 @@
+html {
+    font-size: 100%;
+}
+body {
+    color: #333;
+    background-color: #f4f9ff;
+    font-size: 0.9rem;
+}
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.section-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/*-------------------ヘッダー------------------*/
+#header {
+    margin-top: 60px;
+}
+
+#header .site-title {
+    width: 160px;
+    line-height: 1px;
+    margin-bottom: 15px;
+}
+
+#header .site-title a {
+    display: block;
+}
+
+/*-------------------メイン-----------------*/
+#main-wrapper {
+    margin-bottom: 60px;
+}
+
+#index {
+    background-color: #ffffff;
+    padding: 30px 0;
+    margin-bottom: 60px;
+}
+
+#index .index-list{
+    margin-left: 20px;
+}
+
+#index .index-list li{
+    margin-bottom: 20px;
+}
+
+#index .index-list li:last-child{
+    margin-bottom: 0;
+}
+
+#detail{
+    margin-bottom: 100px;
+}
+
+#detail .detail-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+#detail .detail-wrapper .title{
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+#detail .detail-wrapper .img{
+    width: 270px;
+    margin-right: 60px;
+}
+
+#detail .detail-wrapper .text p {
+    margin-bottom: 20px;
+}
+
+#detail .detail-wrapper dl {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0;
+    margin-bottom: 25px;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+
+#detail .detail-wrapper dt {
+    width: 25%;
+}
+
+#detail .detail-wrapper dd {
+    width: 75%;
+}
+
+#detail .detail-wrapper .link {
+    color: #333;
+}
+
+#detail .detail-wrapper .link:hover {
+    opacity: 0.8;
+}
+
+
+/*-------------------フッター------------------*/
+footer {
+    font-size: 0.625rem;
+    padding: 15px 0;
+}
+
+
+/*-------------------SP------------------*/
+@media screen and (max-width: 600px) {
+    .innner {
+        padding: 0 40px;
+    }
+
+    #header {
+        padding: 0 10px;
+    }
+
+    #mainvisual {
+        padding: 0 10px;
+    }
+
+    #detail .detail-wrapper {
+        flex-direction: column;
+    }
+
+    #detail .detail-wrapper .img {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+}
